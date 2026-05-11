@@ -8,14 +8,14 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 w-full bg-white border-b border-sercora-border">
       <div className="max-w-5xl mx-auto px-10">
         <div className="flex justify-between h-20 items-center">
-          {/* Logo */}
-          <a href="#" className="flex-shrink-0 flex items-center">
-            <img
-              src="/logo.png"
-              alt="Sercora Social Care Consultancy"
-              className="h-14 w-auto object-contain"
-            />
-          </a>
+          {/* Brand name */}
+          <div className="flex-shrink-0 flex items-center gap-2">
+            <div className="flex flex-col">
+              <span className="font-serif text-[24px] font-bold tracking-[2px] text-sercora-navy leading-none">
+                Sercora Social Care
+              </span>
+            </div>
+          </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-[30px]">

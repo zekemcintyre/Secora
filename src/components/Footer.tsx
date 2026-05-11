@@ -10,11 +10,11 @@ export default function Footer() {
           {/* Brand Col */}
           <div className="md:col-span-2">
             <div className="flex items-center mb-6">
-              <img
-                src="/logo.png"
-                alt="Sercora Social Care Consultancy"
-                className="h-20 w-auto object-contain"
-              />
+              <div className="flex flex-col">
+                <span className="font-serif text-[24px] font-bold tracking-[2px] text-sercora-navy uppercase leading-none">
+                  Sercora Social Care
+                </span>
+              </div>
             </div>
             <p className="text-sercora-text-light font-sans text-[13px] leading-relaxed max-w-sm mb-6">
               High-level consultancy and expert advocacy for Local Authorities and families. Restorative, legally informed, child-centered.
