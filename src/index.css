@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sercora-navy: #0A1D37;
+  --color-sercora-gold: #C5A059;
+  --color-sercora-gold-hover: #b38d47;
+  --color-sercora-text: #2D3436;
+  --color-sercora-text-light: #636E72;
+  --color-sercora-border: #E0E0E0;
+  --color-sercora-offwhite: #F9F9F9;
+  
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Georgia", serif;
+}
+
+@layer base {
+  body {
+    background-color: #FFFFFF;
+    font-family: var(--font-sans);
+    color: var(--color-sercora-text);
+  }
+}
+
+@layer utilities {
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
