@@ -22,7 +22,7 @@ export default function Hero() {
             <img 
               src="/logo.png" 
               alt="Sercora Social Care Consultancy" 
-              className="w-full max-w-[320px] h-auto object-contain mix-blend-multiply"
+              className="w-full max-w-[320px] h-auto object-contain"
             />
             <h1 className="sr-only">Sercora Social Care Consultancy</h1>
           </div>
