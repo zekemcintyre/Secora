@@ -3,13 +3,13 @@ import React from 'react';
 
 const values = [
   {
-    title: 'Child-Centered',
-    description: 'We prioritise the safety, well-being, and voice of the child inside every procedure.',
+    title: 'Child-Centred',
+    description: 'We prioritise the safety, wellbeing and voice of the child at every stage.',
     icon: Heart,
   },
   {
     title: 'Integrity',
-    description: 'Transparent, legally sound, and accountable practices across all our services.',
+    description: 'Transparent, legally sound and accountable practice across all our services.',
     icon: Shield,
   },
   {
