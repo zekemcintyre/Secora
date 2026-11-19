@@ -25,9 +25,9 @@ export default function Footer() {
           <div>
             <h4 className="font-sans font-bold text-sercora-navy tracking-[1px] uppercase text-[12px] mb-5">Quick Links</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-sercora-text hover:text-sercora-gold transition-colors font-sans text-[13px]">Home</a></li>
-              <li><a href="#services" className="text-sercora-text hover:text-sercora-gold transition-colors font-sans text-[13px]">Our Services</a></li>
-              <li><a href="#about" className="text-sercora-text hover:text-sercora-gold transition-colors font-sans text-[13px]">About Us</a></li>
+              <li><a href="/" className="text-sercora-text hover:text-sercora-gold transition-colors font-sans text-[13px]">Home</a></li>
+              <li><a href="/#services" className="text-sercora-text hover:text-sercora-gold transition-colors font-sans text-[13px]">Our Services</a></li>
+              <li><a href="/#about" className="text-sercora-text hover:text-sercora-gold transition-colors font-sans text-[13px]">About Us</a></li>
             </ul>
           </div>
 
@@ -53,8 +53,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Sercora Social Care. All rights reserved.
           </p>
           <div className="flex gap-6 text-[12px]">
-            <a href="#" className="text-sercora-text-light hover:text-sercora-navy">Privacy Policy</a>
-            <a href="#" className="text-sercora-text-light hover:text-sercora-navy">Terms of Use</a>
+            <a href="/privacy-policy" className="text-sercora-text-light hover:text-sercora-navy">Privacy Policy</a>
           </div>
         </div>
       </div>
