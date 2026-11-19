@@ -17,7 +17,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sercora-text-light font-sans text-[13px] leading-relaxed max-w-sm mb-6">
-              High-level consultancy and expert advocacy for Local Authorities and families. Restorative, legally informed, child-centered.
+              Independent consultancy and expert advocacy for families and Local Authorities. Restorative, legally informed and child-centred.
             </p>
           </div>
 
@@ -54,7 +54,7 @@ export default function Footer() {
           </p>
           <div className="flex gap-6 text-[12px]">
             <a href="#" className="text-sercora-text-light hover:text-sercora-navy">Privacy Policy</a>
-            <a href="#" className="text-sercora-text-light hover:text-sercora-navy">Terms of Service</a>
+            <a href="#" className="text-sercora-text-light hover:text-sercora-navy">Terms of Use</a>
           </div>
         </div>
       </div>

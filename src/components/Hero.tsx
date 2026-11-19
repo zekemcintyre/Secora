@@ -28,7 +28,7 @@ export default function Hero() {
           </div>
           
           <p className="text-[18px] text-sercora-text-light font-sans leading-relaxed mb-[30px] max-w-[450px]">
-            Providing independent, high-level support for Local Authorities and families navigating the complexities of Children’s Social Care.
+            Independent, expert support for families and Local Authorities navigating the complexities of children’s social care.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
@@ -46,13 +46,13 @@ export default function Hero() {
           <div className="absolute w-[280px] h-[200px] bg-[#D1D8E0] -translate-x-[30px] -translate-y-[20px] border-[8px] border-white shadow-[0_10px_30px_rgba(0,0,0,0.1)] z-10 overflow-hidden">
             <img 
               src="https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=2069&auto=format&fit=crop" 
-              alt="Professional consulting overlay"
+              alt=""
               className="w-full h-full object-cover opacity-60 mix-blend-multiply"
               referrerPolicy="no-referrer"
             />
           </div>
           <div className="absolute w-[280px] h-[200px] bg-sercora-navy translate-x-[30px] translate-y-[20px] border-[8px] border-white shadow-[0_15px_40px_rgba(0,0,0,0.15)] z-20 flex items-center justify-center text-white italic font-serif p-5 text-center text-[16px]">
-            "Where families find their voice, organisations find their strength, and professionals find their excellence."
+            ‘Where families find their voice, organisations find their strength, and professionals find their excellence.’
           </div>
         </div>
       </div>

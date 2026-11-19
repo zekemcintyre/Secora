@@ -4,22 +4,22 @@ import React from 'react';
 const services = [
   {
     title: 'Social Services Involvement Advocacy',
-    description: 'Support parents who have social services involvement such as PLO and Child Protection.',
+    description: 'Supporting parents involved with children’s services, including the Public Law Outline (PLO) and child protection processes.',
     icon: Scale,
   },
   {
     title: 'Private Law Support',
-    description: 'Expert assistance with family court proceedings, dispute resolution, and comprehensive care arrangements.',
-    icon: BookOpen, // Or Gavel, but BookOpen works for law/arrangements
+    description: 'Expert help with family court proceedings, dispute resolution and child arrangements.',
+    icon: BookOpen,
   },
   {
     title: 'Consultancy',
-    description: 'Auditing, framework development, policy review, and compliance consulting for Local Authorities and care agencies.',
+    description: 'Auditing, framework development, policy review and compliance advice for Local Authorities and care providers.',
     icon: Briefcase,
   },
   {
     title: 'Training & Best Practice',
-    description: 'Specialist workshops, continuous professional development, and mentoring for social care professionals.',
+    description: 'Specialist workshops, continuing professional development (CPD) and mentoring for social care professionals.',
     icon: GraduationCap,
   },
 ];
